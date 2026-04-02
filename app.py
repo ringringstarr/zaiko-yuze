@@ -112,9 +112,9 @@ if uploaded_file is not None:
                                     else:
                                         cell.fill = fill_none
 
-                # ダウンロード用のファイル名を作成 (yyyy.mm.dd 2025年度在庫速度表 湯瀬.xlsx)
+                # ダウンロード用のファイル名を作成 (yyyy.mm.dd 2026年度在庫速度表 湯瀬.xlsx)
                 today_str = datetime.now().strftime("%Y.%m.%d")
-                output_filename = f"{today_str} 2025年度在庫速度表 湯瀬.xlsx"
+                output_filename = f"{today_str} 2026年度在庫速度表 湯瀬.xlsx"
 
                 # Excelファイルをメモリ上に保存
                 output = io.BytesIO()
